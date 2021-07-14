@@ -1,0 +1,1 @@
+<footer class="bg-gray-500 text-gray-100 text-sm font-light h-16 flex items-center justify-items-center"><div class="text-center min-w-full">Site made by me with SvelteKit.  Open Soure code for the site can be found <a href="https://github.com/craigliesinger/CraigLiesingerComSvelte" target="_blank" class="underline ml-1"> here</a></div></footer>
