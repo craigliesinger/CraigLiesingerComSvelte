@@ -3,7 +3,7 @@
   "version": "0.0.1",
   "scripts": {
     "dev": "TAILWIND_MODE=watch svelte-kit dev",
-    "build": "svelte-kit build",
+    "build": "npx rimraf public && svelte-kit build",
     "preview": "svelte-kit preview",
     "check": "svelte-check --tsconfig ./tsconfig.json",
     "check:watch": "svelte-check --tsconfig ./tsconfig.json --watch",
@@ -16,6 +16,7 @@
     "prettier": "~2.2.1",
     "prettier-plugin-svelte": "^2.2.0",
     "svelte": "^3.34.0",
+    "svelte-adapter-firebase": "^0.9.2",
     "svelte-check": "^2.0.0",
     "svelte-preprocess": "^4.0.0",
     "tailwindcss": "^2.2.4",

@@ -1,5 +1,6 @@
 <script>
     import Card from './components/Card.svelte'
+    import { fade } from 'svelte/transition'
 
     let workItems = [
         {
@@ -11,7 +12,7 @@
                 {
                     name: 'IT Project Manager & PMO',
                     dates: 'March 2017 to Current',
-                    description: 'Managing IT projects at EU level and responcible for PMO activities including implementing Portfolio management tools and processes.'
+                    description: 'Responsible for running numerous IT projects concurrently, either as project manager for waterfall projects or Scrum Master / Delivery Manager for software development projects. Also responsible to manage the EU IT project portfolio; aligning regional leaders and publishing key metrics.'
                 },
                 {
                     name: 'Project Manager CEE',
@@ -105,7 +106,10 @@
 </script>
 
 <div>
-    {#each workItems as item}
+    {#each workItems as item, index}
+    <div in:fade="{{ delay: index*100 }}">
         <Card {...item}></Card>
+    </div>
+        
     {/each}
 </div>

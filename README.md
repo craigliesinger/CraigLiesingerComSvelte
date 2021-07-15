@@ -1,20 +1,8 @@
-# create-svelte
+## craigliesinger.com website code
 
-Everything you need to build a Svelte project, powered by [`create-svelte`](https://github.com/sveltejs/kit/tree/master/packages/create-svelte);
+This repo contains the source code I used for my personal website.  It's a straight-forward, clean design site using Svelte Kit and TailwindCss.  Anyone is free to use this template as they wish.
 
-## Creating a project
-
-If you're seeing this, you've probably already done this step. Congrats!
-
-```bash
-# create a new project in the current directory
-npm init svelte@next
-
-# create a new project in my-app
-npm init svelte@next my-app
-```
-
-> Note: the `@next` is temporary
+[craigliesinger.com](www.craigliesinger.com)
 
 ## Developing
 
