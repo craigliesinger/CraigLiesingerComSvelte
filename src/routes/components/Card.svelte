@@ -10,11 +10,14 @@
     <div class="min-w-full lg:flex">
       <!-- <div class="h-48 lg:h-auto lg:w-48 flex-none bg-cover rounded-t lg:rounded-t-none lg:rounded-l text-center overflow-hidden" style="background-image: url({image})" title="{name}}">
       </div> -->
+      {#if image}
+        <!-- placeholder for including image with card objects -->
+      {/if}
       <div class="min-w-full border border-gray-200 bg-gray-50 rounded shadow-xl p-4 flex flex-col justify-between leading-normal">
         <div class="mb-4">
           <div class="flex items-baseline flex-col sm:flex-row">
             {#if link}
-            <a href={link}><h2  class="text-blue-600 font-bold text-2xl mb-2 mr-4 hover:underline hover:text-blue-500">{name}</h2></a>
+            <a href={link} target="_blank"><h2 class="text-blue-600 font-bold text-2xl mb-2 mr-4 hover:underline hover:text-blue-500">{name}</h2></a>
             {:else}
             <h2  class="text-blue-600 font-bold text-2xl mb-2 mr-4">{name}</h2>
             {/if}
@@ -28,7 +31,9 @@
               {:else}
                 <h4 class="text-xl mr-4">{item.name}</h4>
               {/if}
-            <h5 class="text-blue-400">{item.dates}</h5>
+              {#if item.dates}
+              <h5 class="text-blue-400">{item.dates}</h5>
+              {/if}
           </div>
             
             <p class="mt-2 font-thin">{item.description}</p><br/>

@@ -60,7 +60,7 @@
             <a href="mailto:craig.liesinger@gmail.com" target="_blank" class="ml-4 relative text-xl text-gray-300 hover:text-white">
                 <i class="fa fa-envelope"></i>
             </a>
-            <a href="https://linkedin.com/craigliesinger" target="_blank" class="ml-4 relative text-xl text-gray-300 hover:text-white">
+            <a href="https://www.linkedin.com/in/craigliesinger/" target="_blank" class="ml-4 relative text-xl text-gray-300 hover:text-white">
                 <i class="fa fa-linkedin"></i>
             </a>
             <a href="https://craigliesinger.medium.com/" target="_blank" class="ml-4 relative text-xl text-gray-300 hover:text-white">

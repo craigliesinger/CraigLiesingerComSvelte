@@ -1,5 +1,7 @@
 <script>
     import Card from './components/Card.svelte'
+    import { fade } from 'svelte/transition'
+
     let projects = [
         {
             name: 'Mobile Apps',
@@ -72,7 +74,9 @@
 </script>
 
 <div>
-    {#each projects as project}
+    {#each projects as project, index}
+    <div in:fade="{{ delay: index*100 }}">
         <Card {...project}></Card>
+    </div>
     {/each}
 </div>
