@@ -1,7 +1,7 @@
 <script>
-    import Card from './components/Card.svelte'
+    import Card from '../components/Card.svelte'
     import { fade } from 'svelte/transition'
-
+    
     let workItems = [
         {
             name: 'Ecolab',
@@ -10,8 +10,13 @@
             location: 'Vienna, Austria',
             items: [
                 {
+                    name: 'Digital Customer Experience & Field Sales Productivity Manager, Healthcare Europe',
+                    dates: 'February 2022 to Current',
+                    description: 'Responsible for improving Healthcare Europe digital customer exprience via web portals and other digital tools, as well as improving the efficiency of our customer facing work force via digital tools - including innovative solutions in AR and remote assitance.'
+                },
+                {
                     name: 'IT Project Manager & PMO',
-                    dates: 'March 2017 to Current',
+                    dates: 'March 2017 to February 2022',
                     description: 'Responsible for running numerous IT projects concurrently, either as project manager for waterfall projects or Scrum Master / Delivery Manager for software development projects. Also responsible to manage the EU IT project portfolio; aligning regional leaders and publishing key metrics.'
                 },
                 {

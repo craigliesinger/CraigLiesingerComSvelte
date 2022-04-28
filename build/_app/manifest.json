@@ -1,0 +1,97 @@
+{
+  ".svelte-kit/runtime/client/start.js": {
+    "file": "start-585a6476.js",
+    "src": ".svelte-kit/runtime/client/start.js",
+    "isEntry": true,
+    "imports": [
+      "_index-c053419e.js"
+    ],
+    "dynamicImports": [
+      "src/routes/__layout.svelte",
+      ".svelte-kit/runtime/components/error.svelte",
+      "src/routes/education.svelte",
+      "src/routes/index.svelte",
+      "src/routes/projects.svelte",
+      "src/routes/work.svelte"
+    ]
+  },
+  "src/routes/__layout.svelte": {
+    "file": "pages/__layout.svelte-9b312768.js",
+    "src": "src/routes/__layout.svelte",
+    "isEntry": true,
+    "isDynamicEntry": true,
+    "imports": [
+      "_index-c053419e.js"
+    ],
+    "css": [
+      "assets/pages/__layout.svelte-8d953c88.css"
+    ]
+  },
+  ".svelte-kit/runtime/components/error.svelte": {
+    "file": "error.svelte-24c71624.js",
+    "src": ".svelte-kit/runtime/components/error.svelte",
+    "isEntry": true,
+    "isDynamicEntry": true,
+    "imports": [
+      "_index-c053419e.js"
+    ]
+  },
+  "src/routes/education.svelte": {
+    "file": "pages/education.svelte-bfb7109b.js",
+    "src": "src/routes/education.svelte",
+    "isEntry": true,
+    "isDynamicEntry": true,
+    "imports": [
+      "_index-c053419e.js",
+      "_Card-54e7146d.js",
+      "_index-aaf7f5ef.js"
+    ]
+  },
+  "src/routes/index.svelte": {
+    "file": "pages/index.svelte-c421c569.js",
+    "src": "src/routes/index.svelte",
+    "isEntry": true,
+    "isDynamicEntry": true,
+    "imports": [
+      "_index-c053419e.js",
+      "_index-aaf7f5ef.js"
+    ]
+  },
+  "src/routes/projects.svelte": {
+    "file": "pages/projects.svelte-cc05b15b.js",
+    "src": "src/routes/projects.svelte",
+    "isEntry": true,
+    "isDynamicEntry": true,
+    "imports": [
+      "_index-c053419e.js",
+      "_Card-54e7146d.js",
+      "_index-aaf7f5ef.js"
+    ]
+  },
+  "src/routes/work.svelte": {
+    "file": "pages/work.svelte-8afbfbcd.js",
+    "src": "src/routes/work.svelte",
+    "isEntry": true,
+    "isDynamicEntry": true,
+    "imports": [
+      "_index-c053419e.js",
+      "_Card-54e7146d.js",
+      "_index-aaf7f5ef.js"
+    ]
+  },
+  "_index-c053419e.js": {
+    "file": "chunks/index-c053419e.js"
+  },
+  "_Card-54e7146d.js": {
+    "file": "chunks/Card-54e7146d.js",
+    "imports": [
+      "_index-c053419e.js"
+    ]
+  },
+  "_index-aaf7f5ef.js": {
+    "file": "chunks/index-aaf7f5ef.js",
+    "imports": [
+      "_index-c053419e.js"
+    ]
+  }
+}

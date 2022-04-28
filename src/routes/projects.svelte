@@ -1,7 +1,7 @@
 <script>
-    import Card from './components/Card.svelte'
+    import Card from '../components/Card.svelte'
     import { fade } from 'svelte/transition'
-
+    
     let projects = [
         {
             name: 'Mobile Apps',
@@ -39,16 +39,16 @@
                     description: "A website with a large customer portal in the background for Austrian Bau Firme (construction company). The home page includes the normal static content as well as a custom built blog, integration to Facebook for latest positive reviews and Instagram for most recent posts from the company. In the background customer portal, there is integration with companies SaaS ERP api for all customer documents access, building plan uploads, photo share and a bit more. The app is built useing Angular (including Universal for SSR) and Firebase for background database, storage, functions, analytics and hosting."
                 },
                 {
-                    name: 'Ziegelwerkstatt',
-                    dates: '2021',
-                    link: 'https://ziegelwerkstatt.web.app/',
-                    description: "Very much a work in progress with a long way to go. This large experiment includes three.js landing page, 3 different Angular apps (end user house configurator, admin portal, and partner portal)."
-                },
-                {
                     name: 'Web-Ifc Svelte Example Viewer',
                     dates: '2021',
                     link: 'https://github.com/craigliesinger/simple-svelte',
                     description: "Other projects brought me to the newly formed but quickly growing Web-Ifc project.  In a desire to contribute to what I see as a great project and learn Svelte, I developed a Svelte based example of their IFC viewer."
+                },
+                {
+                    name: 'ifcXR',
+                    dates: '2022',
+                    link: 'https://ifcxr.com',
+                    description: "A new project of mine born from experience in my other listed web app projects.  ifcXR aim is to make it extremely fast & easy to share .ifc files in AR & VR."
                 }
             ]
         },

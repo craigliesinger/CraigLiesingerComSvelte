@@ -1,7 +1,7 @@
 <script>
-    import Nav from './components/Nav.svelte'
-    import Footer from './components/Footer.svelte'
-    
+    import Nav from '../components/Nav.svelte'
+    import Footer from '../components/Footer.svelte'
+    import "../app.css";
 </script>
 
 <Nav/>
@@ -10,8 +10,3 @@
     </slot>
 </div>
 <Footer/>
-<style>
-    @tailwind base;
-    @tailwind components;
-    @tailwind utilities;
-</style>

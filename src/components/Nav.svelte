@@ -47,11 +47,11 @@
           <div class="hidden sm:block sm:ml-6">
             <div class="flex space-x-4">
               <!-- Current: "border-l border-4 border-white text-white", Default: "text-gray-100 hover:bg-blue-400 hover:text-white" -->
-              <a href="/work" class="border-b-4 border-transparent text-gray-100 hover:bg-blue-400 hover:text-white px-3 py-2 rounded-md text-sm font-medium" class:selected="{$page.path === '/work'}">Work</a>
+              <a href="/work" class="border-b-4 border-transparent text-gray-100 hover:bg-blue-400 hover:text-white px-3 py-2 rounded-md text-sm font-medium" class:selected="{$page.url.pathname  === '/work'}">Work</a>
   
-              <a href="/education" class="border-b-4 border-transparent text-gray-100 hover:bg-blue-400 hover:text-white px-3 py-2 rounded-md text-sm font-medium" class:selected="{$page.path === '/education'}">Education</a>
+              <a href="/education" class="border-b-4 border-transparent text-gray-100 hover:bg-blue-400 hover:text-white px-3 py-2 rounded-md text-sm font-medium" class:selected="{$page.url.pathname === '/education'}">Education</a>
   
-              <a href="/projects" class="border-b-4 border-transparent text-gray-100 hover:bg-blue-400 hover:text-white px-3 py-2 rounded-md text-sm font-medium" class:selected="{$page.path === '/projects'}">Projects</a>
+              <a href="/projects" class="border-b-4 border-transparent text-gray-100 hover:bg-blue-400 hover:text-white px-3 py-2 rounded-md text-sm font-medium" class:selected="{$page.url.pathname === '/projects'}">Projects</a>
 
             </div>
           </div>
@@ -76,11 +76,11 @@
     <div class="sm:hidden" id="mobile-menu">
         <div class="px-2 pt-2 pb-3 space-y-1">
           <!-- Current: "bg-gray-900 text-white", Default: "text-gray-100 hover:bg-blue-400 hover:text-white" -->
-          <a href="/work" class="text-gray-100 hover:bg-blue-400 hover:text-white block px-3 py-2 rounded-md text-base font-medium" class:selected-mobile="{$page.path === '/work'}">Work History</a>
+          <a href="/work" class="text-gray-100 hover:bg-blue-400 hover:text-white block px-3 py-2 rounded-md text-base font-medium" class:selected-mobile="{$page.url.pathname === '/work'}">Work History</a>
     
-          <a href="/education" class="text-gray-100 hover:bg-blue-400 hover:text-white block px-3 py-2 rounded-md text-base font-medium" class:selected-mobile="{$page.path === '/education'}">Education</a>
+          <a href="/education" class="text-gray-100 hover:bg-blue-400 hover:text-white block px-3 py-2 rounded-md text-base font-medium" class:selected-mobile="{$page.url.pathname === '/education'}">Education</a>
     
-          <a href="/projects" class="text-gray-100 hover:bg-blue-400 hover:text-white block px-3 py-2 rounded-md text-base font-medium" class:selected-mobile="{$page.path === '/projects'}">Projects</a>
+          <a href="/projects" class="text-gray-100 hover:bg-blue-400 hover:text-white block px-3 py-2 rounded-md text-base font-medium" class:selected-mobile="{$page.url.pathname === '/projects'}">Projects</a>
     
         </div>
     </div> 

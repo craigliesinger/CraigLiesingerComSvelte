@@ -1,5 +1,7 @@
 import preprocess from 'svelte-preprocess';
-import firebase from "svelte-adapter-firebase";
+// import firebase from "svelte-adapter-firebase";
+// import adapter from '@sveltejs/adapter-auto';
+import adapter from '@sveltejs/adapter-static';
 
 /** @type {import('@sveltejs/kit').Config} */
 const config = {
@@ -8,9 +10,22 @@ const config = {
 	preprocess: preprocess(),
 
 	kit: {
-		adapter: firebase(),
-		// hydrate the <div id="svelte"> element in src/app.html
-		target: '#svelte'
+		adapter: adapter({
+			// default options are shown
+			pages: 'build',
+			assets: 'build',
+			fallback: 'index.html'
+		  }),
+	  
+		//   prerender: {
+		// 	// This can be false if you're using a fallback (i.e. SPA mode)
+		// 	default: true
+		//   },
+		  trailingSlash: 'always',
+//    adapter: adapter(),
+   prerender: {
+	entries: ['*']
+}
 	}
 };
 

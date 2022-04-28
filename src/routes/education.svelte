@@ -1,7 +1,7 @@
 <script>
-    import Card from './components/Card.svelte'
+    import Card from '../components/Card.svelte'
     import { fade } from 'svelte/transition'
-
+    
     let eduItems = [
         {
             name: 'University of Kentucky – Gatton College of Business & Economics',
