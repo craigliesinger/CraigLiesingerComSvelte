@@ -77,6 +77,12 @@
         {
           name: "Creator",
           dates: "",
+          mediaLinks: [
+            {
+              name: "YouTube Video Demo",
+              url: "https://youtu.be/bzvW1k3dwlI?si=SKMiZ_PgijQfMAFK",
+            },
+          ],
           description:
             "An AI powered web application for collecting and analysing user feedback. Built to help product teams quickly gather qualitative insights and structure user research.",
         },
